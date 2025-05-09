@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Linkedin, Instagram, Mail } from "lucide-react"
-import { Sidebar } from "../main/sidebar"
 
 export default function AboutContact() {
   return (
@@ -22,19 +21,19 @@ export default function AboutContact() {
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">ABOUT ME</h1>
 
             <p className="text-lg font-bold">
-              Hi, I'm Tiyasha Corea.
+              Hi, I&apos;m Tiyasha Corea.
             </p>
 
             <p className="text-lg">
-              I'm a Fashion and Technology student at Loughborough University, exploring how emerging technologies can shape the future of clothing.
+              I&apos;m a Fashion and Technology student at Loughborough University, exploring how emerging technologies can shape the future of clothing.
             </p>
 
             <p className="text-lg">
-              My work bridges design and innovation - from using CAD software and virtual sampling to integrating digital tools into the garment development process. I've gained industry experience with Brandix, where I worked on tech packs, 3D CLO sampling systems, and digital workflows that streamline design and production.
+              My work bridges design and innovation - from using CAD software and virtual sampling to integrating digital tools into the garment development process. I&apos;ve gained industry experience with Brandix, where I worked on tech packs, 3D CLO sampling systems, and digital workflows that streamline design and production.
             </p>
 
             <p className="text-lg">
-              With roots in Sri Lanka, I bring a global and culturally informed perspective to my projects, often merging South Asian craft with modern materials and technology-driven solutions. I'm especially interested in how we can use new tools to make fashion more efficient, inclusive and sustainable.
+              With roots in Sri Lanka, I bring a global and culturally informed perspective to my projects, often merging South Asian craft with modern materials and technology-driven solutions. I&apos;m especially interested in how we can use new tools to make fashion more efficient, inclusive and sustainable.
             </p>
 
             <p className="text-lg">
