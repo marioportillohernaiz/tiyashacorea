@@ -52,7 +52,7 @@ export function Sidebar() {
   }
 
   return (
-    <aside className="w-full md:fixed md:left-0 md:top-0 md:w-64 md:h-screen p-6 bg-white border-r hidden sm:block overflow-y-auto">
+    <aside className="w-full md:fixed md:left-0 md:top-0 md:w-64 md:h-screen p-6 border-r hidden sm:block overflow-y-auto">
       <div className="mb-12">
         <Link href="/" className="text-3xl font-bold tracking-tight">
           TIYASHA
@@ -63,11 +63,11 @@ export function Sidebar() {
 
       <nav className="space-y-6" style={{ maxHeight: "calc(100vh - 120px)" }}>
         <div>
-          <div className="mt-3 space-y-3 text-gray-500 pl-5">
+          <div className="mt-3 space-y-3 text-gray-500 dark:text-white pl-5">
             <Link 
               key={"fashion-show"}
               href={"/projects/fashion-show"} 
-              className="block py-1 hover:text-black"
+              className="block py-1"
             >
               FASHION SHOW
             </Link>
@@ -78,23 +78,23 @@ export function Sidebar() {
         <div>
           <button
             onClick={toggleWork}
-            className="flex items-center w-full text-left uppercase font-medium text-gray-500 py-1 hover:text-black focus:outline-none"
+            className="flex items-center w-full text-left uppercase font-medium text-gray-500 dark:text-white py-1 focus:outline-none"
           >
             {projectsExpanded ? <ChevronDown className="w-4 h-4 mr-1" /> : <ChevronRight className="w-4 h-4 mr-1" />}
             PROJECTS
           </button>
 
           {projectsExpanded && (
-            <div className="mt-3 space-y-3 text-gray-500 pl-5">
+            <div className="mt-3 space-y-3 text-gray-500 dark:text-white pl-5">
               {loading ? (
-                <div className="text-sm text-gray-400">Loading...</div>
+                <div className="text-sm">Loading...</div>
               ) : (
                 <>
                   {projectItems.map(project => (
                     <Link 
                       key={project.id} 
                       href={`/projects/${project.id}`} 
-                      className="block py-1 hover:text-black"
+                      className="block py-1"
                     >
                       {project.title}
                     </Link>
@@ -109,23 +109,23 @@ export function Sidebar() {
         <div>
           <button
             onClick={toggleCaseStudy}
-            className="flex items-center w-full text-left uppercase font-medium text-gray-500 py-1 hover:text-black focus:outline-none"
+            className="flex items-center w-full text-left uppercase font-medium text-gray-500 dark:text-white py-1 focus:outline-none"
           >
             {caseStudyExpanded ? <ChevronDown className="w-4 h-4 mr-1" /> : <ChevronRight className="w-4 h-4 mr-1" />}
             CASE STUDIES
           </button>
 
           {caseStudyExpanded && (
-            <div className="mt-3 space-y-3 text-gray-500 pl-5">
+            <div className="mt-3 space-y-3 text-gray-500 dark:text-white pl-5">
               {loading ? (
-                <div className="text-sm text-gray-400">Loading...</div>
+                <div className="text-sm">Loading...</div>
               ) : (
                 <>
                   {caseStudyItems.map(caseStudy => (
                     <Link 
                       key={caseStudy.id} 
                       href={`/projects/${caseStudy.id}`} 
-                      className="block py-1 hover:text-black"
+                      className="block py-1"
                     >
                       {caseStudy.title}
                     </Link>
@@ -141,15 +141,15 @@ export function Sidebar() {
             <Link 
               key={"clo3d"}
               href={"/projects/clo3d"} 
-              className="block py-1 hover:text-black"
+              className="block py-1"
             >
               Clo3D
             </Link>
           </div>
         </div> */}
 
-        <div className="pt-6 space-y-3 text-gray-500">
-          <Link href="/about" className="block py-1 hover:text-black">
+        <div className="pt-6 space-y-3 text-gray-500 dark:text-white">
+          <Link href="/about" className="block py-1">
             About / Contact
           </Link>
         </div>

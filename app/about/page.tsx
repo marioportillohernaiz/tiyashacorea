@@ -16,7 +16,7 @@ export default function AboutContact() {
       </div>
 
       <div className="relative z-10 flex flex-col md:flex-row">
-        <div className="md:ml-20 md:my-20 w-full md:w-1/2 bg-white bg-opacity-50 backdrop-blur-sm p-8 md:p-12 overflow-y-auto">
+        <div className="md:ml-20 md:my-20 w-full md:w-1/2 bg-white dark:bg-black bg-white p-8 md:p-12 overflow-y-auto">
           <div className="flex flex-col space-y-8">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">ABOUT ME</h1>
 
@@ -41,7 +41,7 @@ export default function AboutContact() {
             </p>
 
             <div className="flex flex-col items-center space-y-8 pt-4">
-              <Link href="/" className="bg-black text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors">
+              <Link href="/" className="bg-black dark:bg-gray-700 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors">
                 Portfolio
               </Link>
 
@@ -50,7 +50,7 @@ export default function AboutContact() {
                   href="https://www.linkedin.com/in/tiyasha-corea-a7b011296/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-200 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
@@ -58,13 +58,13 @@ export default function AboutContact() {
                   href="https://www.instagram.com/tiyashadesigns/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-200 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
                 >
                   <Instagram className="w-6 h-6" />
                 </a>
                 <a
                   href="mailto:tiyashacorea@gmail.com"
-                  className="bg-gray-200 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
                 >
                   <Mail className="w-6 h-6" />
                 </a>

@@ -97,7 +97,7 @@ export default function ProjectPage() {
           </div>
 
           {project.id === "fashion-show" &&
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 gap-4 pt-5">
               <div className="mx-auto">
                 <video 
                   ref={videoRef}
