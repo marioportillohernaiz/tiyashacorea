@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "id": "fashion-show",
+      "title": "TWILIGHT TARTAN",
+      "subtitle": "Fashion Show",
+      "date": "2025",
+      "coverImage": "/fashioncover.png",
+      "type": "fashion-show",
+      "images": [
+        "/fashioncover.png",
+        "/fashion2.png"
+      ],
+      "description": ""
+    },
+    {
+      "id": "project-botanic",
+      "title": "BOTANIC SERENITY",
+      "date": "2025",
+      "coverImage": "/botanic.png",
+      "type": "project",
+      "images": [
+        "/botanic1.png",
+        "/botanic2.png",
+        "/botanic3.png",
+        "/botanic4.png",
+        "/botanic5.png",
+        "/botanic6.png",
+        "/botanic7.png",
+        "/botanic8.png",
+        "/botanic9.png",
+        "/botanic10.png",
+        "/botanic11.png",
+        "/botanic12.png",
+        "/botanic13.png",
+        "/botanic14.png",
+        "/botanic15.png"
+      ],
+      "description": ""
+    },
+    {
+      "id": "project-cellura",
+      "title": "CELLURA",
+      "subtitle": "",
+      "date": "2024",
+      "coverImage": "/celluracover.png",
+      "type": "project",
+      "images": [
+        "/cellura1.png",
+        "/cellura2.png",
+        "/cellura3.png",
+        "/cellura4.png",
+        "/cellura5.png",
+        "/cellura6.png",
+        "/cellura7.png",
+        "/cellura8.png",
+        "/cellura9.png"
+      ],
+      "description": ""
+    },
+    {
+      "id": "project-vibration",
+      "title": "VIBRATION",
+      "subtitle": "",
+      "date": "2024",
+      "coverImage": "/vibrationcover.png",
+      "type": "project",
+      "images": [
+        "/vibration1.png",
+        "/vibration2.png",
+        "/vibration3.png",
+        "/vibration4.png",
+        "/vibration5.png",
+        "/vibration6.png",
+        "/vibration7.png",
+        "/vibration8.png",
+        "/vibration9.png",
+        "/vibration10.png",
+        "/vibration11.png"
+      ],
+      "description": ""
+    },
+    {
+      "id": "case-study-rtw",
+      "title": "The convergence of RTW X SPORTSWEAR",
+      "subtitle": "",
+      "date": "2025",
+      "coverImage": "/rtwcover.png",
+      "type": "case-study",
+      "images": [
+        "/rtw1.png",
+        "/rtw2.png",
+        "/rtw3.png",
+        "/rtw4.png",
+        "/rtw5.png",
+        "/rtw6.png",
+        "/rtw7.png"
+      ],
+      "description": ""
+    },
+    {
+      "id": "case-study-termal",
+      "title": "Thermal Regulation",
+      "subtitle": "",
+      "date": "2024",
+      "coverImage": "/thermalcover.png",
+      "type": "case-study",
+      "images": [
+        "/thermal1.png",
+        "/thermal2.png",
+        "/thermal3.png",
+        "/thermal4.png",
+        "/thermal5.png"
+      ],
+      "description": ""
+    }
+  ]
+}

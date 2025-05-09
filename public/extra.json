@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "id": "clo3d",
+      "title": "Clo3D virtual design software",
+      "date": "2023",
+      "coverImage": "/placeholder.png",
+      "type": "clo3d",
+      "images": [
+        ""
+      ],
+      "description": ""
+    }
+  ]
+}
