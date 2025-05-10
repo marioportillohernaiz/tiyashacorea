@@ -94,22 +94,16 @@ export function WorkComponent() {
             className="relative group cursor-pointer block"
           >
             <div className="aspect-square overflow-hidden">
-              <Image
+              <img
                 src={project.coverImage || "/placeholder.png"}
                 alt={project.title}
                 width={400}
                 height={400}
-                quality={100}
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="bg-white w-[90%] h-[90%] flex items-center justify-center p-4">
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tight">{project.title}</h1>
-              </div>
-            </div>
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <div className="bg-white w-[90%] h-[90%] flex flex-rows-2 items-center justify-left p-4">
+              <div className="bg-white dark:bg-black w-[90%] h-[90%] flex flex-rows-2 items-center justify-left p-4">
                 {/* <div className="text-gray-400 mb-4">{project.date}</div> */}
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
                     {project.title}
