@@ -16,6 +16,7 @@
     {
       "id": "project-botanic",
       "title": "BOTANIC SERENITY",
+      "subtitle": "Project",
       "date": "2025",
       "coverImage": "/botanic.png",
       "type": "project",
@@ -41,7 +42,7 @@
     {
       "id": "project-cellura",
       "title": "CELLURA",
-      "subtitle": "",
+      "subtitle": "Project",
       "date": "2024",
       "coverImage": "/celluracover.png",
       "type": "project",
@@ -61,7 +62,7 @@
     {
       "id": "project-vibration",
       "title": "VIBRATION",
-      "subtitle": "",
+      "subtitle": "Project",
       "date": "2024",
       "coverImage": "/vibrationcover.png",
       "type": "project",
@@ -83,7 +84,7 @@
     {
       "id": "case-study-rtw",
       "title": "The convergence of RTW X SPORTSWEAR",
-      "subtitle": "",
+      "subtitle": "Case Study",
       "date": "2025",
       "coverImage": "/rtwcover.png",
       "type": "case-study",
@@ -101,7 +102,7 @@
     {
       "id": "case-study-termal",
       "title": "Thermal Regulation",
-      "subtitle": "",
+      "subtitle": "Case Study",
       "date": "2024",
       "coverImage": "/thermalcover.png",
       "type": "case-study",
