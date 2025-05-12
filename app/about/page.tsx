@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Linkedin, Instagram, Mail } from "lucide-react"
+import { Linkedin, Instagram, Mail, FileText } from "lucide-react"
 
 export default function AboutContact() {
   return (
@@ -50,23 +50,47 @@ export default function AboutContact() {
                   href="https://www.linkedin.com/in/tiyasha-corea-a7b011296/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors relative group"
+                  aria-label="LinkedIn Profile"
                 >
                   <Linkedin className="w-6 h-6" />
+                  <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    LinkedIn Profile
+                  </span>
                 </a>
                 <a
                   href="https://www.instagram.com/tiyashadesigns/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors relative group"
+                  aria-label="Instagram Profile"
                 >
                   <Instagram className="w-6 h-6" />
+                  <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    Instagram Profile
+                  </span>
                 </a>
                 <a
                   href="mailto:tiyashacorea@gmail.com"
-                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors relative group"
+                  aria-label="Email Me"
                 >
                   <Mail className="w-6 h-6" />
+                  <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    Send Email
+                  </span>
+                </a>
+                <a
+                  href="/tiyashacorea_cv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-200 dark:bg-gray-700 p-4 rounded-full hover:bg-gray-300 transition-colors relative group"
+                  aria-label="View CV"
+                >
+                  <FileText className="w-6 h-6" />
+                  <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                    View CV
+                  </span>
                 </a>
               </div>
             </div>

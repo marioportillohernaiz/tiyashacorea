@@ -86,7 +86,7 @@ export default function ProjectPage() {
 
           <div className="grid grid-cols-1 gap-4">
             {Array.from({ length: project.images.length }).map((_, i) => (
-              <div key={i} className="bg-gray-100">
+              <div key={i} className="flex justify-center">
                 <img
                   src={project.images[i]}
                   alt={`Project image ${i + 1}`}
