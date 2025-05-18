@@ -136,7 +136,7 @@ export function Sidebar() {
           )}
         </div>
 
-        {/* <div>
+        <div>
           <div className="mt-3 space-y-3 text-gray-500 pl-5">
             <Link 
               key={"clo3d"}
@@ -146,7 +146,7 @@ export function Sidebar() {
               Clo3D
             </Link>
           </div>
-        </div> */}
+        </div>
 
         <div className="pt-6 space-y-3 text-gray-500 dark:text-white">
           <Link href="/about" className="block py-1">

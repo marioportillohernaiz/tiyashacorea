@@ -81,6 +81,21 @@
       ],
       "description": ""
     },
+        {
+      "id": "clo3d",
+      "title": "Clo3D virtual design software",
+      "date": "2023",
+      "coverImage": "/clocover.png",
+      "type": "clo3d",
+      "images": [
+        "/clo1.png",
+        "/clo2.png",
+        "/clo3.png",
+        "/clo4.png",
+        "/clo5.png"
+      ],
+      "description": ""
+    },
     {
       "id": "case-study-rtw",
       "title": "The convergence of RTW X SPORTSWEAR",
